@@ -14,3 +14,5 @@ Reproductor de música minimalista y ultra ligero hecho en C++ y Qt6.
 Descarga el archivo `Nebula_Music.flatpakbundle` desde la sección de **Releases** e instálalo:
 ```bash
 flatpak install Nebula_Music.flatpakbundle
+o
+compilalo tu mismo, asegurate de instalar las dependencias : sudo pacman -S cmake gcc qt6-base qt6-declarative qt6-multimedia qt6-multimedia-ffmpeg taglib
