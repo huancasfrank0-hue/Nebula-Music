@@ -12,4 +12,4 @@ Si no deseas usar el paquete Flatpak o usas una arquitectura de **32 bits**, pue
 
 1. **Instalar dependencias (Arch Linux):**
    ```bash
-   sudo pacman -S base-devel cmake qt6-base qt6-declarative taglib
+ sudo pacman -S --needed base-devel cmake qt6-base qt6-declarative qt6-multimedia qt6-multimedia-ffmpeg qt6-svg qt6-5compat taglib
