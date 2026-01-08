@@ -1,15 +1,16 @@
-# 🌌 Nebula Music
+# 🌌 Nebula Music 
 
-Un reproductor de música ligero y elegante construido con **C++**, **Qt6** y **TagLib**. 
+Reproductor de música minimalista y ultra ligero hecho en C++ y Qt6.
 
-## 🚀 Características
-- **Nativo:** Sin Electron, sin consumo excesivo de RAM.
-- **Rápido:** Lectura de metadatos instantánea gracias a TagLib.
-- **Estándar:** Cumple con las especificaciones de Freedesktop.
+![Preview](assets/screenshot.png)
 
-## 🛠️ Instalación (Compilación Manual)
-Si no deseas usar el paquete Flatpak o usas una arquitectura de **32 bits**, puedes compilarlo tú mismo:
+## ✨ Características
+* 🚀 **Rendimiento:** Solo 228MB de RAM.
+* 🎨 **Diseño:** Interfaz transparente y moderna (Aesthetic).
+* 📂 **Formatos:** Soporte para MP4, M4A y MP3 con metadatos reales.
 
-1. **Instalar dependencias (Arch Linux):**
-   ```bash
- sudo pacman -S --needed base-devel cmake qt6-base qt6-declarative qt6-multimedia qt6-multimedia-ffmpeg qt6-svg qt6-5compat taglib
+## 📦 Instalación
+### Método Rápido (Recomendado)
+Descarga el archivo `Nebula_Music.flatpakbundle` desde la sección de **Releases** e instálalo:
+```bash
+flatpak install Nebula_Music.flatpakbundle
